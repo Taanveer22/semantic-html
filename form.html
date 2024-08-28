@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <section>
+            <h2>please fill up the form</h2>
+            <form action="">
+
+                <label for="name">student name:
+                    <input type="text" id="name" placeholder="write your name">
+                </label>
+                <label for="email">student email:
+                    <input type="email" id="email" placeholder="write your email">
+                </label>
+                <label for="phone">student phone:
+                    <input type="number" id="phone" placeholder="write your phone">
+                </label>
+
+                <br> <br>
+
+                <fieldset>
+                    <legend>pick one degree from fieldset legend:</legend>
+                    <label for="ssc">
+                        <input type="radio" name="degree" id="ssc">ssc
+                    </label>
+                    <label for="hsc">
+                        <input type="radio" name="degree" id="hsc">hsc
+                    </label>
+                    <label for="jsc">
+                        <input type="radio" name="degree" id="jsc">jsc
+                    </label>
+                </fieldset>
+
+                <br> <br>
+
+                <fieldset>
+                    <legend>choose your class building:</legend>
+                    <label for="green">
+                        <input type="checkbox" name="building" id="green">green building
+                    </label>
+                    <label for="red">
+                        <input type="checkbox" name="building" id="red">red building
+                    </label>
+                    <label for="blue">
+                        <input type="checkbox" name="building" id="blue">blue building
+                    </label>
+                </fieldset>
+
+                <br> <br>
+
+                <fieldset>
+                    <legend>special instruction:</legend>
+                    <textarea name="" id="" cols="50" rows="05"></textarea>
+                </fieldset>
+
+                <br>
+
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
